@@ -1,0 +1,179 @@
+body{
+	background-color: #cccc99;
+}
+
+#tile{
+width: 33.33%;
+float: left;
+}
+
+#tile3{
+	width: 33.33%;
+	float: left;
+}
+
+#owl{
+	position: relative;
+	border: 1px solid black;
+	width: 90%;
+	height: 340px;
+	margin: auto;
+	background-color: #F0F0CE;
+	box-shadow: 0 1px 15px 1px #9E9E7A;
+}
+
+#owl2{
+	position: relative;
+	border: 1px solid black;
+	width: 90%;
+	height: 340px;
+	margin: auto;
+	background-color: #F7F7DF;
+	box-shadow: 0 1px 15px 1px #9E9E7A;
+}
+
+#owl3{
+	position: relative;
+	border: 1px solid black;
+	width: 90%;
+	height: 340px;
+	margin: auto;
+	background-color: #FCFCD9;
+	box-shadow: 0 1px 15px 1px #9E9E7A;
+}
+
+
+
+
+h1{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 77px;
+	text-shadow: 2px 2px 4px #9E9E7A;
+	font-size: 1.75em;
+}
+
+p{
+	font-family: "Times New Roman", Times, serif;
+}
+
+#text{
+	margin-top: 30px;
+	padding: 10px;
+}
+
+#title{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 35px;
+	padding: 4px;
+	text-align: center;
+	background-color: #876174;
+	font-size: 1.25em;
+}
+
+#title2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 35px;
+	padding: 4px;
+	text-align: center;
+	background-color: #618774;
+	font-size: 1.25em;
+}
+
+#title3{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 35px;
+	padding: 4px;
+	text-align: center;
+	background-color: #A1A17F;
+	font-size: 1.25em;
+}
+
+@media (min-width: 1200px){
+
+	}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	
+	}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#tile{
+		width: 50%;
+		padding-bottom: 20px;
+	}
+
+	#tile3{
+		width: 100%;
+	}
+
+	#owl{
+		height: 320px;
+	}
+
+	#owl2{
+		height: 320px;
+	}
+
+	#owl3{
+		height: 190px;
+		width: 95%;
+	}
+}
+
+@media (max-width: 767px){
+	#tile{
+		width: 100%;
+	}
+	#tile3{
+		width: 100%;
+	}
+
+	#tile{
+		margin-bottom: 25px;
+	}
+
+	#owl{
+		height: 240px;
+	}
+
+	#owl2{
+		height: 280px;
+	}
+
+	#owl3{
+		height: 240px;
+	}
+
+
+}
+
+@media(max-width: 479px){
+	#owl{
+		height: 390px;
+	}
+
+	#owl2{
+		height: 420px;
+	}
+
+	#owl3{
+		height: 390px;
+	}
+}
+
+
+
+
